@@ -1,0 +1,26 @@
+{
+    "name": "encorephp/encorephp",
+    "description": "The EncorePHP Framework.",
+    "keywords": ["framework", "encorephp"],
+    "require": {
+        "php": ">=5.4.0",
+        "encorephp/framework": "dev-master"
+    },
+    "require-dev": {
+        "mockery/mockery": "0.8.0",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/encorephp/framework"
+        }
+    ],
+    "minimum-stability": "dev"
+}
