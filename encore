@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+// Require the composer autoloader
+if ( ! file_exists($file = __DIR__.'/vendor/autoload.php')) {
+    exit("You must run 'composer install' before you can begin development");
+}
+
+require $file;
