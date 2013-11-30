@@ -5,7 +5,7 @@ return array(
     'vendor' => 'EncorePHP',
 
     'providers' => array(
-        
+        'Encore\View\ServiceProvider'
     ),
 
     'aliases' => array(
