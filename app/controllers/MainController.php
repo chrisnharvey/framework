@@ -6,7 +6,7 @@ class MainController
     {
         View::make('main')
             ->bind('QuitButton', 'clicked', function() {
-                exit('Thank you for using EncorePHP');
+                App::quit();
             })
             ->getFrame('Frame')
             ->show();
