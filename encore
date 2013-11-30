@@ -2,8 +2,19 @@
 <?php
 
 // Require the composer autoloader
-if ( ! file_exists($file = __DIR__.'/vendor/autoload.php')) {
-    exit("You must run 'composer install' before you can begin development");
-}
+require __DIR__.'/vendor/autoload.php';
 
-require $file;
+// Instantiate the application
+$app = new Encore\Foundation\Application(__DIR__.'/app', __DIR__.'/vendor');
+
+// Set the application environment
+$app->setEnvironment(array_key_exists(1, $argv) ? $argv[1] : 'development');
+
+// Give facades an instance of the application
+Encore\Foundation\Facade::setApplication($app);
+
+// Run the bootstrap file
+require __DIR__.'/app/bootstrap.php';
+
+// Here we go!..
+$app->run();
