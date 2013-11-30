@@ -27,5 +27,5 @@ App::launching(function() {
 */
 
 App::quitting(function() {
-    
+    echo 'Thank you for using EncorePHP';
 });
