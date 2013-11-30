@@ -28,5 +28,5 @@ App::launching(function() {
 */
 
 App::quitting(function() {
-    echo 'Thank you for using EncorePHP';
+    echo 'Thank you for using EncorePHP'.PHP_EOL;
 });
