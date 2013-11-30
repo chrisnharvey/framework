@@ -1,15 +1,15 @@
 <?php
 
-return [
+return array(
     'name' => 'EncorePHP',
     'vendor' => 'EncorePHP',
 
-    'providers' => [
+    'providers' => array(
         
-    ],
+    ),
 
-    'aliases' => [
+    'aliases' => array(
         'App' => 'Encore\Foundation\Facade\App',
         'View' => 'Encore\Foundation\Facade\View'
-    ]
-];
+    )
+);
