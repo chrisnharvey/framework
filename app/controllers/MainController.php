@@ -4,7 +4,7 @@ class MainController
 {
     public function start()
     {
-        View::make(__DIR__.'/../views/main.xrc')
+        View::make('main')
             ->getFrame('Frame')
             ->bind('QuitButton', 'button_clicked', function() {
                 App::quit();
