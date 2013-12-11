@@ -17,4 +17,4 @@ Encore\Foundation\Facade::setApplication($app);
 require __DIR__.'/app/bootstrap.php';
 
 // Here we go!..
-$app->run();
+$app->boot();
