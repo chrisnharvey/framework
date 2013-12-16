@@ -29,3 +29,15 @@ App::launching(function() {
 App::quitting(function() {
     echo 'Thank you for using EncorePHP'.PHP_EOL;
 });
+
+/*
+|--------------------------------------------------------------------------
+| Register Commands
+|--------------------------------------------------------------------------
+|
+| Here you can register commands which you can run on the console.
+| Commands can be used to help you out with all sorts of things
+| including compiling, debugging and more.
+|
+*/
+Console::add(new \Encore\Foundation\Command\Run(App::get()));
