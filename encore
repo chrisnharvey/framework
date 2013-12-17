@@ -7,9 +7,6 @@ require __DIR__.'/vendor/autoload.php';
 // Instantiate the application
 $app = new Encore\Foundation\Application(__DIR__.'/app', __DIR__.'/vendor');
 
-// Set the application environment
-$app->setEnvironment(array_key_exists(1, $argv) ? $argv[1] : 'development');
-
 // Give facades an instance of the application
 Encore\Foundation\Facade::setApplication($app);
 
