@@ -6,6 +6,7 @@ return array(
 
     'providers' => array(
         'Encore\View\ServiceProvider',
+        'Encore\Foundation\Provider\Collection',
         'Encore\Console\ServiceProvider'
     ),
 
