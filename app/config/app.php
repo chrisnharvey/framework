@@ -7,7 +7,9 @@ return array(
     'providers' => array(
         'Encore\View\ServiceProvider',
         'Encore\Foundation\Provider\Collection',
-        'Encore\Console\ServiceProvider'
+        'Encore\Foundation\Provider\Application',
+        'Encore\Console\ServiceProvider',
+        'Encore\Testing\ServiceProvider'
     ),
 
     'aliases' => array(
