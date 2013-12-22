@@ -40,4 +40,3 @@ App::quitting(function() {
 | including compiling, debugging and more.
 |
 */
-Console::add(new \Encore\Foundation\Command\Run(App::get()));
