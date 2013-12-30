@@ -7,11 +7,17 @@ require __DIR__.'/vendor/autoload.php';
 // Instantiate the application
 $app = new Encore\Foundation\Application(__DIR__.'/app', __DIR__.'/vendor');
 
+// Get the input console input
+$input = new Symfony\Component\Console\Input\ArgvInput;
+
+// Set the application environment
+$app->setEnvironment($input->getParameterOption('--env'));
+
 // Give facades an instance of the application
 Encore\Foundation\Facade::setApplication($app);
 
-// Run the bootstrap file
-require __DIR__.'/app/bootstrap.php';
-
-// Here we go!..
+// Boot the app
 $app->boot();
+
+// Run the console!
+$app['console']->run();
