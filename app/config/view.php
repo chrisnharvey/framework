@@ -2,6 +2,6 @@
 
 return array(
     'paths' => array(
-        __DIR__.'/../views'
+        curdir().'/../views'
     )
 );
