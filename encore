@@ -5,7 +5,7 @@
 require __DIR__.'/vendor/autoload.php';
 
 // Instantiate the application
-$app = new Encore\Foundation\Application(__DIR__.'/app', __DIR__.'/vendor');
+$app = new Encore\Foundation\Application(curdir().'/app', curdir().'/vendor');
 
 // Get the input console input
 $input = new Symfony\Component\Console\Input\ArgvInput;
