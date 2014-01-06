@@ -7,11 +7,8 @@ require __DIR__.'/vendor/autoload.php';
 // Instantiate the application
 $app = new Encore\Foundation\Application(curdir().'/app', curdir().'/vendor');
 
-// Get the input console input
-$input = new Symfony\Component\Console\Input\ArgvInput;
-
 // Set the application environment
-$app->setEnvironment($input->getParameterOption('--env'));
+$app->setEnvironment('dev');
 
 // Give facades an instance of the application
 Encore\Foundation\Facade::setApplication($app);
