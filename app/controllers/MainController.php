@@ -1,6 +1,6 @@
 <?php
 
-class MainController
+class MainController extends BaseController
 {
     public function start()
     {
