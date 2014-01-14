@@ -5,7 +5,7 @@
 require __DIR__.'/vendor/autoload.php';
 
 // Instantiate the application
-$app = new Encore\Foundation\Application(curdir().'/app', curdir().'/vendor');
+$app = new Encore\Foundation\Application(curdir().'/app', curdir().'/resources', curdir().'/vendor');
 
 // Set the application mode
 $app->setMode('dev');
