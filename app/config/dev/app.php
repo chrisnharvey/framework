@@ -1,13 +1,13 @@
 <?php
 
-return array(
-    'providers' => array(
+return [
+    'providers' => [
         'Encore\Console\ServiceProvider',
         'Encore\Compiler\ServiceProvider',
         'Encore\Testing\ServiceProvider',
-    ),
+    ],
 
-    'aliases' => array(
+    'aliases' => [
         'Console' => 'Encore\Console\Facade'
-    )
-);
+    ]
+];

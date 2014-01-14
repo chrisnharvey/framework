@@ -1,19 +1,19 @@
 <?php
 
-return array(
+return [
     'name' => 'EncorePHP',
     'vendor' => 'EncorePHP',
 
-    'providers' => array(
+    'providers' => [
         'Encore\View\ServiceProvider',
         'Encore\Foundation\Provider\Collection',
         'Encore\Foundation\Provider\Application',
         'Encore\Foundation\Provider\Filesystem'
-    ),
+    ],
 
-    'aliases' => array(
+    'aliases' => [
         'App' => 'Encore\Foundation\Facade\App',
         'Filesystem' => 'Encore\Foundation\Facade\Filesystem',
         'View' => 'Encore\View\Facade'
-    )
-);
+    ]
+];
