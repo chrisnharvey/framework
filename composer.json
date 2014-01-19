@@ -6,16 +6,32 @@
         "php": ">=5.4.0",
         "encorephp/framework": "dev-master"
     },
+    "require-dev": {
+        "encorephp/development": "dev-master"
+    },
     "autoload": {
         "classmap": [
+            "app/commands",
             "app/controllers",
             "app/models"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Encore\\Composer\\Script::postInstall"
+        ],
+        "post-update-cmd":[
+            "Encore\\Composer\\Script::postUpdate"
         ]
     },
     "repositories": [
         {
             "type": "vcs",
             "url":  "https://github.com/encorephp/framework"
+        },
+        {
+            "type": "vcs",
+            "url":  "https://github.com/encorephp/development"
         }
     ],
     "minimum-stability": "dev"
