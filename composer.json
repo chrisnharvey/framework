@@ -4,7 +4,7 @@
     "keywords": ["framework", "encorephp"],
     "require": {
         "php": ">=5.4.0",
-        "encorephp/framework": "dev-master"
+        "encorephp/kernel": "dev-master"
     },
     "require-dev": {
         "encorephp/development": "dev-master"
@@ -27,7 +27,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "https://github.com/encorephp/framework"
+            "url":  "https://github.com/encorephp/kernel"
         },
         {
             "type": "vcs",
