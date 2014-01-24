@@ -24,15 +24,5 @@
             "Encore\\Composer\\Script::postUpdate"
         ]
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://github.com/encorephp/kernel"
-        },
-        {
-            "type": "vcs",
-            "url":  "https://github.com/encorephp/development"
-        }
-    ],
     "minimum-stability": "dev"
 }
