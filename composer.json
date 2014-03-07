@@ -4,7 +4,8 @@
     "keywords": ["framework", "encorephp"],
     "require": {
         "php": ">=5.4.0",
-        "encorephp/kernel": "dev-master"
+        "encorephp/kernel": "dev-master",
+        "encorephp/wxwidgets": "dev-master"
     },
     "require-dev": {
         "encorephp/development": "dev-master"
