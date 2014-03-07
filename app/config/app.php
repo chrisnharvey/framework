@@ -6,14 +6,12 @@ return [
 
     'providers' => [
         'Encore\View\ServiceProvider',
-        'Encore\Foundation\Provider\Collection',
-        'Encore\Foundation\Provider\Application',
-        'Encore\Foundation\Provider\Filesystem'
+        'Encore\Kernel\Provider\Collection',
+        'Encore\Kernel\Provider\Application',
     ],
 
     'aliases' => [
-        'App' => 'Encore\Foundation\Facade\App',
-        'Filesystem' => 'Encore\Foundation\Facade\Filesystem',
+        'App' => 'Encore\Kernel\Facade\App',
         'View' => 'Encore\View\Facade'
     ]
 ];
