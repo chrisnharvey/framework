@@ -6,7 +6,10 @@
         "php": ">=5.4.0",
         "encorephp/kernel": "dev-master",
         "encorephp/wxwidgets": "dev-master",
-        "encorephp/view": "dev-master"
+        "encorephp/view": "dev-master",
+        "encorephp/database": "dev-master",
+        "encorephp/orm": "dev-master",
+        "encorephp/migration": "dev-master"
     },
     "require-dev": {
         "encorephp/development": "dev-master"
