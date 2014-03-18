@@ -10,8 +10,8 @@ $app = new Encore\Kernel\Application(curdir().'/app', curdir().'/resources', cur
 // Set the application mode
 $app->setMode('dev');
 
-// Give facades an instance of the application
-$app->initializeFacaces();
+// Give proxies an instance of the application
+$app->initializeProxies();
 
 // Boot the app
 $app->boot();
