@@ -1,5 +1,6 @@
 EncorePHP
 =========
+[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/chrisnharvey/)
 
 EncorePHP is a desktop application framework for PHP. It uses wxWidgets and wxPHP to easily create a cross-platform desktop application using PHP.
 
