@@ -8,6 +8,6 @@ return [
     ],
 
     'aliases' => [
-        'Console' => 'Encore\Console\Facade'
+        'Console' => 'Encore\Console\Proxy'
     ]
 ];

@@ -11,7 +11,7 @@ return [
     ],
 
     'aliases' => [
-        'App' => 'Encore\Kernel\Facade\App',
-        'View' => 'Encore\View\Facade'
+        'App' => 'Encore\Kernel\Proxy\App',
+        'View' => 'Encore\View\Proxy',
     ]
 ];
