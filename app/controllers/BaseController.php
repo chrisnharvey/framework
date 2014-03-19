@@ -1,6 +1,6 @@
 <?php
 
-abstract class BaseController extends \Encore\Foundation\Controller
+abstract class BaseController extends \Encore\Kernel\Controller
 {
     
 }
