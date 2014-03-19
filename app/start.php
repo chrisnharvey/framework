@@ -11,8 +11,8 @@
 |
 */
 
-App::launching(function() {
-    (new MainController)->start();
+App::launching(function($app) {
+    $app['MainController']->start();
 });
 
 /*
