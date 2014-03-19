@@ -12,7 +12,7 @@
 */
 
 App::launching(function() {
-    with(new MainController)->start();
+    (new MainController)->start();
 });
 
 /*
