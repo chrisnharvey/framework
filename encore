@@ -8,10 +8,7 @@ error_reporting(-1);
 require __DIR__.'/vendor/autoload.php';
 
 // Instantiate the application
-$app = new Encore\Kernel\Application(curdir().'/app', curdir().'/resources', curdir().'/vendor');
-
-// Set the application mode
-$app->setMode('dev');
+$app = Encore\Kernel\Application::fromCwd();
 
 // Give proxies an instance of the application
 $app->initializeProxies();
