@@ -1,19 +1,19 @@
 {
-    "name": "encore/framework",
+    "name": "encorephp/framework",
     "description": "The EncorePHP Framework.",
     "keywords": ["framework", "encorephp"],
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
-        "encore/kernel": "dev-master",
-        "encore/wxwidgets": "dev-master",
-        "encore/view": "dev-master",
-        "encore/database": "dev-master",
-        "encore/orm": "dev-master",
-        "encore/migration": "dev-master"
+        "encorephp/kernel": "dev-master",
+        "encorephp/wxwidgets": "dev-master",
+        "encorephp/view": "dev-master",
+        "encorephp/database": "dev-master",
+        "encorephp/orm": "dev-master",
+        "encorephp/migration": "dev-master"
     },
     "require-dev": {
-        "encore/development": "dev-master"
+        "encorephp/development": "dev-master"
     },
     "autoload": {
         "classmap": [
