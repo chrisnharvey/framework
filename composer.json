@@ -1,5 +1,5 @@
 {
-    "name": "encore/encorephp",
+    "name": "encore/framework",
     "description": "The EncorePHP Framework.",
     "keywords": ["framework", "encorephp"],
     "require": {
