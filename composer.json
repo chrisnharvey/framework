@@ -2,6 +2,7 @@
     "name": "encore/framework",
     "description": "The EncorePHP Framework.",
     "keywords": ["framework", "encorephp"],
+    "license": "MIT",
     "require": {
         "php": ">=5.4.0",
         "encore/kernel": "dev-master",
