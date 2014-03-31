@@ -1,9 +1,8 @@
 <?php
 
-use Encore\Container\ContainerAwareInterface;
-use Encore\Kernel\Controller as KernelController;
+use Encore\Controller\Controller;
 
-abstract class BaseController extends KernelController implements ContainerAwareInterface
+abstract class BaseController extends Controller
 {
     
 }
