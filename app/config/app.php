@@ -8,8 +8,6 @@ return [
         'Encore\Events\ServiceProvider',
         'Encore\View\ServiceProvider',
         'Encore\Controller\ServiceProvider',
-        'Encore\Kernel\Provider\Collection',
-        'Encore\Kernel\Provider\Application',
         'Encore\Filesystem\ServiceProvider',
         'Encore\Wx\ServiceProvider'
     ],
