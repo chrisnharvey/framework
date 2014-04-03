@@ -1,0 +1,7 @@
+<GIML>
+    <Frame id='window' width="85" height="50" x="200" y="200">
+        <BoxSizer orientation="horizontal">
+            <Button onClick="quit">Quit</Button>
+        </BoxSizer>
+    </Frame>
+</GIML>
