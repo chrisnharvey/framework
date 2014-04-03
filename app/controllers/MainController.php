@@ -2,13 +2,15 @@
 
 class MainController extends BaseController
 {
+    protected $view = 'test';
+
     public function start()
     {
-        View::make('main')
-            ->getFrame('Frame')
-            ->bind('QuitButton', 'button_clicked', function() {
-                App::quit();
-            })
-            ->show();
+        $this->view->getElementById('window')->show();
+    }
+
+    public function quit()
+    {
+        $this->container->quit();
     }
 }
