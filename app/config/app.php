@@ -6,9 +6,12 @@ return [
 
     'providers' => [
         'Encore\Events\ServiceProvider',
+        'Encore\Resource\ServiceProvider',
         'Encore\View\ServiceProvider',
         'Encore\Controller\ServiceProvider',
         'Encore\Filesystem\ServiceProvider',
+        'Encore\View\ServiceProvider',
+        'Encore\GIML\ServiceProvider',
         'Encore\Wx\ServiceProvider'
     ],
 
