@@ -22,6 +22,9 @@
             "app/models"
         ]
     },
+    "config": {
+        "bin-dir": "bin"
+    },
     "scripts": {
         "post-install-cmd": [
             "Encore\\Composer\\Script::postInstall"
