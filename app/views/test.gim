@@ -1,7 +1,9 @@
 <GIML>
-    <Frame id='window' width="85" height="50" x="200" y="200">
-        <BoxSizer orientation="horizontal">
-            <Button onClick="quit">Quit</Button>
+    <Frame id="window" width="400" height="400" x="200" y="200">
+        <BoxSizer id="sizer">
+            <TextBox id="year" />
+            <Button onClick="calculateEaster">Calculate Easter</Button>
+            <Label id="easter">Enter a year then click 'Calculate Easter'</Label>
         </BoxSizer>
     </Frame>
 </GIML>
