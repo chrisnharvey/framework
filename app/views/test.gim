@@ -1,7 +1,7 @@
 <GIML>
     <Frame id="window" width="400" height="400" x="200" y="200">
         <BoxSizer id="sizer">
-            <TextBox id="year" />
+            <TextBox onEnter="calculateEaster" id="year" />
             <Button onClick="calculateEaster">Calculate Easter</Button>
             <Label id="easter">Enter a year then click 'Calculate Easter'</Label>
         </BoxSizer>
