@@ -18,6 +18,7 @@ return [
     'aliases' => [
         'App' => 'Encore\Kernel\Proxy\App',
         'View' => 'Encore\View\Proxy',
+        'Config' => 'Encore\Config\Proxy',
         'Filesystem' => 'Encore\Filesystem\Proxy',
     ]
 ];
