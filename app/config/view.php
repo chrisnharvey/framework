@@ -2,6 +2,11 @@
 
 return [
     'paths' => [
-        __DIR__.'/../views'
+        'view' => [
+            __DIR__.'/../views'
+        ],
+        'style' => [
+            __DIR__.'/../styles'
+        ]
     ]
 ];
