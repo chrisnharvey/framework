@@ -1,5 +1,5 @@
 <GIML>
-    <Frame id="window" width="400" height="400" x="200" y="200">
+    <Frame id="window">
         <BoxSizer id="sizer">
             <TextBox onEnter="calculateEaster" id="year" />
             <Button onClick="calculateEaster">Calculate Easter</Button>
