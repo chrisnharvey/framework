@@ -1,11 +1,17 @@
 "#window":
-  width: 250
-  height: 100
-  x: 200
-  y: 200
+    width: 250
+    height: 100
+    x: 200
+    y: 200
+    style:
+        closeBox: true
 
 "#button":
-  text: Calculate Easter
+    text: Calculate Easter
 
 "#easter":
-  text: Enter a year then click 'Calculate Easter'
+    text: Enter a year then click 'Calculate Easter'
+
+"#year":
+    style:
+        processEnter: true
