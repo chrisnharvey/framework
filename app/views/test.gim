@@ -2,8 +2,8 @@
     <Frame id="window">
         <BoxSizer id="sizer">
             <TextBox onEnter="calculateEaster" id="year" />
-            <Button onClick="calculateEaster">Calculate Easter</Button>
-            <Label id="easter">Enter a year then click 'Calculate Easter'</Label>
+            <Button id="button" onClick="calculateEaster" />
+            <Label id="easter" />
         </BoxSizer>
     </Frame>
 </GIML>

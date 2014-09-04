@@ -3,3 +3,9 @@
   height: 100
   x: 200
   y: 200
+
+"#button":
+  text: Calculate Easter
+
+"#easter":
+  text: Enter a year then click 'Calculate Easter'
