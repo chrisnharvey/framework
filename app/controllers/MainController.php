@@ -2,7 +2,7 @@
 
 class MainController extends BaseController
 {
-    protected $view = 'test';
+    protected $view = 'main';
 
     public function calculateEaster()
     {
