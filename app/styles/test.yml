@@ -4,7 +4,7 @@
     x: 200
     y: 200
     style:
-        closeBox: true
+        - closeBox
 
 "#button":
     text: Calculate Easter
@@ -14,4 +14,4 @@
 
 "#year":
     style:
-        processEnter: true
+        - processEnter
