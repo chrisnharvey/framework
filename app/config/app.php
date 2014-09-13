@@ -11,7 +11,7 @@ return [
         'Encore\Controller\ServiceProvider',
         'Encore\Filesystem\ServiceProvider',
         'Encore\View\ServiceProvider',
-        'Encore\GIML\ServiceProvider',
+        'Encore\Giml\ServiceProvider',
         'Encore\Wx\ServiceProvider'
     ],
 
