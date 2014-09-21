@@ -12,7 +12,7 @@
 */
 
 App::launching(function($app) {
-    $app['MainController']->window->show();
+    $app['App\Controller\MainController']->window->show();
 });
 
 /*

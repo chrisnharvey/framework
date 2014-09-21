@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Controller;
+
 class MainController extends BaseController
 {
     protected $view = 'main';

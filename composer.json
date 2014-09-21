@@ -13,17 +13,10 @@
         "encorephp/development": "dev-master"
     },
     "autoload": {
-        "classmap": [
-            "app/controllers",
-            "app/models"
-        ],
         "psr-4": {
-            "": [
-                "app/controllers",
-                "app/models",
-                "commands",
-                "tests"
-            ]
+            "App\\": "app/src",
+            "Command\\": "commands",
+            "Test\\": "tests"
         }
     },
     "config": {

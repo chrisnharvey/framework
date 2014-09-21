@@ -3,10 +3,10 @@
 return [
     'paths' => [
         'view' => [
-            __DIR__.'/../views'
+            __DIR__.'/../resources/views'
         ],
         'style' => [
-            __DIR__.'/../styles'
+            __DIR__.'/../resources/styles'
         ]
     ]
 ];
