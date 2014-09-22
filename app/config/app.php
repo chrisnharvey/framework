@@ -23,6 +23,7 @@ return [
         'App' => 'Encore\Kernel\Proxy\App',
         'View' => 'Encore\View\Proxy',
         'Config' => 'Encore\Config\Proxy',
+        'Events' => 'Encore\Events\Proxy',
         'Filesystem' => 'Encore\Filesystem\Proxy',
     ]
 ];
