@@ -5,6 +5,10 @@ return [
     'vendor' => 'EncorePHP',
 
     'providers' => [
+        // Application service providers
+        'App\Provider\App',
+
+        // Core service providers
         'Encore\Events\ServiceProvider',
         'Encore\Resource\ServiceProvider',
         'Encore\View\ServiceProvider',
