@@ -18,7 +18,7 @@ class Provider extends \Encore\Container\ServiceProvider
     public function commands()
     {
         return [
-            'App\Console\Hi'
+            'Console\Command\Hi'
         ];
     }
 }
