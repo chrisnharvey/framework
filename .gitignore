@@ -1,8 +1,7 @@
-/vendor
-/bin/*
+/app/vendor
+/bin
 /build/*
 /tests/*
-/commands/*
 composer.phar
 composer.lock
 .DS_Store
