@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console;
+namespace Console\Command;
 
 use Encore\Console\Command;
 
