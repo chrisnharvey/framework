@@ -20,7 +20,8 @@
         }
     },
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "vendor-dir": "app/vendor"
     },
     "scripts": {
         "post-install-cmd": [
