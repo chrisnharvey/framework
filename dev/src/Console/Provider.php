@@ -1,6 +1,6 @@
 <?php
 
-namespace Console;
+namespace Dev\Console;
 
 class Provider extends \Encore\Container\ServiceProvider
 {
@@ -18,7 +18,7 @@ class Provider extends \Encore\Container\ServiceProvider
     public function commands()
     {
         return [
-            'Console\Command\Hi'
+            'Dev\Console\Command\Hi'
         ];
     }
 }
