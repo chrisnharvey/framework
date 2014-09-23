@@ -14,9 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/src",
-            "Console\\": "console",
-            "Test\\": "tests"
+            "App\\": "app/src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dev\\": "dev/src"
         }
     },
     "config": {
