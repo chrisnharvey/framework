@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Provider;
+namespace Console;
 
-class Console extends \Encore\Container\ServiceProvider
+class Provider extends \Encore\Container\ServiceProvider
 {
     /*
     |--------------------------------------------------------------------------
