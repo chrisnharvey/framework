@@ -3,7 +3,7 @@
 return [
     'providers' => [
         // Application service providers
-        'Dev\Console\Provider',
+        
 
         // Core service providers
         'Encore\Console\ServiceProvider',
