@@ -4,18 +4,9 @@ return [
     'connections' => [
         'app' => [
             'adapter'    => 'mysql',
-            'dsn'        => 'mysql:host=localhost;dbname=app',
+            'dsn'        => 'sqlite:'.__DIR__.'/../database/database.sq3',
             'user'       => 'app',
-            'password'   => '',
-            'attributes' => []
+            'password'   => ''
         ]
-    ],
-    'runtime' => [
-        'defaultConnection' => 'app',
-        'connections' => ['app']
-    ],
-    'generator' => [
-        'defaultConnection' => 'app',
-        'connections' => ['app']
     ]
 ];
