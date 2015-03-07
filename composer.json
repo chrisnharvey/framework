@@ -20,7 +20,10 @@
     "autoload-dev": {
         "psr-4": {
             "Dev\\": "dev/src"
-        }
+        },
+        "files": [
+            "TaskFile.php"
+        ]
     },
     "config": {
         "bin-dir": "bin",
