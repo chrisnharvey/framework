@@ -7,8 +7,4 @@
 class TaskFile extends \Encore\Development\Tasks
 {
     // define public methods as commands
-    public function test()
-    {
-        
-    }
 }
