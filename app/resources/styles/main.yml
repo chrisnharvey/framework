@@ -3,7 +3,7 @@
     height: 100
     x: 200
     y: 200
-    style:
+    options:
         - closeBox
 
 "#button":
@@ -13,5 +13,5 @@
     text: Enter a year then click 'Calculate Easter'
 
 "#year":
-    style:
+    options:
         - processEnter
